@@ -15,4 +15,33 @@ fi
 # Install homebrew packages
 brew install grc coreutils spark
 
+# Install cask
+brew install caskroom/cask/brew-cask
+
+# Install cask apps
+brew cask install dropbox
+brew cask install google-drive
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install atom
+brew cask install hipchat
+brew cask install dashlane
+brew cask install spotify
+brew cask install vlc
+brew cask install utorrent
+brew cask install adobe-creative-cloud
+brew cask install fontexplorer-x-pro
+
+# Install other apps
+brew install hub
+brew install rbenv
+brew install rbenv-gem-rehash
+brew install ruby-build
+brew install mongodb
+brew install redis
+brew install elasticsearch
+brew install gpg
+brew install node
+brew install openssl
+
 exit 0
