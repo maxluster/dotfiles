@@ -1,4 +1,4 @@
-# holman does dotfiles
+# Max's dotfiles: fork of zachholman's dotfiles
 
 ## dotfiles
 
