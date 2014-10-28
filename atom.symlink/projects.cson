@@ -1,0 +1,10 @@
+'bugsnag-website':
+  'title': 'bugsnag-website'
+  'paths': [
+    '/Users/maxluster/bugsnag/bugsnag-website'
+  ]
+'dotfiles':
+  'title': 'dotfiles'
+  'paths': [
+    '/Users/maxluster/.dotfiles'
+  ]
