@@ -22,6 +22,7 @@ brew install caskroom/cask/brew-cask
 brew cask install dropbox
 brew cask install google-drive
 brew cask install google-chrome
+brew cask install firefox
 brew cask install iterm2
 brew cask install atom
 brew cask install hipchat
@@ -30,7 +31,8 @@ brew cask install spotify
 brew cask install vlc
 brew cask install utorrent
 brew cask install adobe-creative-cloud
-brew cask install fontexplorer-x-pro
+brew cask install steam
+brew cask install flash
 
 # Install other apps
 brew install hub

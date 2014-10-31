@@ -7,9 +7,20 @@
     'userId': '61a490a042f2a47011d0766b89deb011ff86787f'
   'editor':
     'fontSize': 13
+    'showIndentGuide': true
+    'softWrap': true
     'invisibles': {}
   'core':
     'themes': [
       'atom-dark-ui'
       'monokai'
     ]
+    'disabledPackages': [
+      'language-sass'
+    ]
+'.css.scss.source':
+  'editor': {}
+'.sass.source':
+  'editor': {}
+'.scss.source':
+  'editor': {}
