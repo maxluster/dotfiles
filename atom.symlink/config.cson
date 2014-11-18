@@ -6,10 +6,12 @@
   'metrics':
     'userId': '61a490a042f2a47011d0766b89deb011ff86787f'
   'editor':
-    'fontSize': 13
     'showIndentGuide': true
     'softWrap': true
-    'invisibles': {}
+    'fontFamily': '"source code pro", consolas'
+    'useHardwareAcceleration': false
+    'softWrapAtPreferredLineLength': true
+    'fontSize': 15
   'core':
     'themes': [
       'atom-dark-ui'
@@ -18,6 +20,19 @@
     'disabledPackages': [
       'language-sass'
     ]
+  'save-session':
+    'dataSaveFolder': '/Users/maxluster/.dotfiles/atom.symlink/packages/save-session/projects'
+    'project': '/Users/maxluster/.dotfiles'
+    'windowX': 0
+    'windowY': 23
+    'windowWidth': 1916
+    'windowHeight': 1177
+    'treeSize': 269
+  'docblockr':
+    'lower_case_primitives': true
+    'deep_indent': false
+  'tree-view':
+    'hideIgnoredNames': true
 '.css.scss.source':
   'editor': {}
 '.sass.source':

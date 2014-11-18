@@ -8,3 +8,8 @@
   'paths': [
     '/Users/maxluster/.dotfiles'
   ]
+'maxluster.com':
+  'title': 'maxluster.com'
+  'paths': [
+    '/Users/maxluster/projects/maxluster.com'
+  ]
