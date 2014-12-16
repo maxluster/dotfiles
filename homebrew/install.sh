@@ -33,6 +33,7 @@ brew cask install utorrent
 brew cask install adobe-creative-cloud
 brew cask install steam
 brew cask install flash
+brew cask install imageoptim
 
 # Install other apps
 brew install hub
