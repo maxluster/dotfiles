@@ -1,44 +1,37 @@
-'global':
-  'exception-reporting':
-    'userId': 'aab4d2e3-0c9b-fe88-2d0b-652313d2dcc5'
-  'welcome':
-    'showOnStartup': false
-  'metrics':
-    'userId': '61a490a042f2a47011d0766b89deb011ff86787f'
-  'editor':
-    'showIndentGuide': true
-    'softWrap': true
-    'fontFamily': '"source code pro", consolas'
-    'useHardwareAcceleration': false
-    'softWrapAtPreferredLineLength': true
-    'preferredLineLength': 120
-    'fontSize': 15
-  'core':
-    'themes': [
-      'atom-dark-ui'
-      'monokai'
+"*":
+  core:
+    disabledPackages: [
+      "language-sass"
     ]
-    'disabledPackages': [
-      'language-sass'
+    themes: [
+      "atom-dark-ui"
+      "monokai"
     ]
-  'save-session':
-    'dataSaveFolder': '/Users/maxluster/.dotfiles/atom.symlink/packages/save-session/projects'
-    'project': '/Users/maxluster/bugsnag/bugsnag-website'
-    'windowX': 1440
-    'windowY': 23
-    'windowWidth': 2556
-    'windowHeight': 1417
-    'treeSize': 359
-  'docblockr':
-    'lower_case_primitives': true
-    'deep_indent': false
-  'tree-view':
-    'hideIgnoredNames': true
-  'css-comb':
-    'config': 'custom'
-'.css.scss.source':
-  'editor': {}
-'.sass.source':
-  'editor': {}
-'.scss.source':
-  'editor': {}
+  "css-comb":
+    config: "custom"
+  docblockr:
+    deep_indent: false
+    lower_case_primitives: true
+  editor:
+    fontSize: 15
+    preferredLineLength: 120
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    useHardwareAcceleration: false
+  "exception-reporting":
+    userId: "aab4d2e3-0c9b-fe88-2d0b-652313d2dcc5"
+  metrics:
+    userId: "61a490a042f2a47011d0766b89deb011ff86787f"
+  "save-session":
+    dataSaveFolder: "/Users/maxluster/.dotfiles/atom.symlink/packages/save-session/projects"
+    project: "/Users/maxluster/bugsnag/bugsnag-website"
+    treeSize: 359
+    windowHeight: 1417
+    windowWidth: 2556
+    windowX: 1440
+    windowY: 23
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false

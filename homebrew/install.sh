@@ -8,43 +8,17 @@
 # Check for Homebrew
 if test ! $(which brew)
 then
-  echo "  Installing Homebrew for you."
-  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)" > /tmp/homebrew-install.log
+echo "  Installing Homebrew for you."
+
+# Install the correct homebrew for each OS type
+if test "$(uname)" = "Darwin"
+then
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+elif test "$(expr substr $(uname -s) 1 5)" = "Linux"
+then
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
 fi
 
-# Install homebrew packages
-brew install grc coreutils spark
-
-# Install cask
-brew install caskroom/cask/brew-cask
-
-# Install cask apps
-brew cask install dropbox
-brew cask install google-drive
-brew cask install google-chrome
-brew cask install firefox
-brew cask install iterm2
-brew cask install atom
-brew cask install hipchat
-brew cask install dashlane
-brew cask install spotify
-brew cask install vlc
-brew cask install utorrent
-brew cask install adobe-creative-cloud
-brew cask install steam
-brew cask install flash
-brew cask install imageoptim
-
-# Install other apps
-brew install hub
-brew install rbenv
-brew install rbenv-gem-rehash
-brew install ruby-build
-brew install mongodb
-brew install redis
-brew install elasticsearch
-brew install gpg
-brew install node
-brew install openssl
+fi
 
 exit 0
