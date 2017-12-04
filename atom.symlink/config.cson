@@ -3,10 +3,7 @@
     disabledPackages: [
       "language-sass"
     ]
-    themes: [
-      "atom-dark-ui"
-      "monokai"
-    ]
+    telemetryConsent: "limited"
   "css-comb":
     config: "custom"
   docblockr:
@@ -14,15 +11,28 @@
     lower_case_primitives: true
   editor:
     fontSize: 15
-    preferredLineLength: 120
+    preferredLineLength: 100
     showIndentGuide: true
     softWrap: true
-    softWrapAtPreferredLineLength: true
     useHardwareAcceleration: false
   "exception-reporting":
     userId: "aab4d2e3-0c9b-fe88-2d0b-652313d2dcc5"
+  linter:
+    disabledProviders: [
+      "ESLint"
+    ]
+  "linter-eslint":
+    rulesToSilenceWhileTyping: [
+      "no-traiing-space"
+    ]
+  "linter-ui-default":
+    panelHeight: 195
+    showPanel: true
   metrics:
     userId: "61a490a042f2a47011d0766b89deb011ff86787f"
+  "prettier-atom":
+    formatOnSaveOptions: {}
+    useEslint: true
   "save-session":
     dataSaveFolder: "/Users/maxluster/.dotfiles/atom.symlink/packages/save-session/projects"
     project: "/Users/maxluster/bugsnag/bugsnag-website"

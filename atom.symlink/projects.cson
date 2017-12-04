@@ -1,15 +1,38 @@
-'bugsnag-website':
-  'title': 'bugsnag-website'
-  'paths': [
-    '/Users/maxluster/bugsnag/bugsnag-website'
-  ]
-'dotfiles':
-  'title': 'dotfiles'
-  'paths': [
-    '/Users/maxluster/.dotfiles'
-  ]
-'maxluster.com':
-  'title': 'maxluster'
-  'paths': [
-    '/Users/maxluster/projects/maxluster'
-  ]
+[
+  {
+    title: "bugsnag-website"
+    paths: [
+      "/Users/maxluster/projects/bugsnag-website"
+    ]
+  }
+  {
+    title: "dotfiles"
+    paths: [
+      "/Users/maxluster/projects/.dotfiles"
+    ]
+  }
+  {
+    title: "bugsnag.com"
+    paths: [
+      "/Users/maxluster/projects/bugsnag.com"
+    ]
+  }
+  {
+    title: "Dashboard Js"
+    paths: [
+      "/Users/maxluster/projects/dashboard-js"
+    ]
+  }
+  {
+    title: "Bugsnag-Blog"
+    paths: [
+      "/Users/maxluster/projects/blog"
+    ]
+  }
+  {
+    title: "docs.bugsnag.com"
+    paths: [
+      "/Users/maxluster/projects/docs.bugsnag.com"
+    ]
+  }
+]
