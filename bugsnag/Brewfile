@@ -1,0 +1,6 @@
+tap 'caskroom/cask'
+brew 'homebrew/versions/redis28'
+brew 'homebrew/versions/mongodb26'
+brew 'elasticsearch@1.7'
+brew 'Caskroom/cask/java'
+brew 'rabbitmq'
