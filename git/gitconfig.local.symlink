@@ -1,0 +1,5 @@
+[user]
+        name = maxluster
+        email = maxluster@gmail.com
+[credential]
+        helper = osxkeychain
