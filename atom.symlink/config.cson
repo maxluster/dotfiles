@@ -1,8 +1,5 @@
 "*":
   core:
-    disabledPackages: [
-      "language-sass"
-    ]
     telemetryConsent: "limited"
   "css-comb":
     config: "custom"
@@ -10,7 +7,7 @@
     deep_indent: false
     lower_case_primitives: true
   editor:
-    fontSize: 15
+    fontSize: 16
     preferredLineLength: 100
     showIndentGuide: true
     softWrap: true

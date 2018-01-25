@@ -2,13 +2,13 @@
   {
     title: "bugsnag-website"
     paths: [
-      "/Users/maxluster/projects/bugsnag-website"
+      "/Users/maxluster/projects/bugsnag-development/website"
     ]
   }
   {
     title: "dotfiles"
     paths: [
-      "/Users/maxluster/projects/.dotfiles"
+      "/Users/maxluster/projects/dotfiles"
     ]
   }
   {
@@ -20,7 +20,7 @@
   {
     title: "Dashboard Js"
     paths: [
-      "/Users/maxluster/projects/dashboard-js"
+      "/Users/maxluster/projects/bugsnag-development/dashboard-js"
     ]
   }
   {
